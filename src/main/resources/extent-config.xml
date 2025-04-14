@@ -1,0 +1,14 @@
+<extentreports>
+    <configuration>
+        <theme>dark</theme> <!-- Tema oscuro del reporte -->
+        <documentTitle>Reqres API Testing Report</documentTitle> <!-- Título de la pestaña del navegador -->
+        <reportName>Resultados de Tests - Reqres API</reportName> <!-- Título principal dentro del reporte -->
+        <encoding>UTF-8</encoding> <!-- Codificación -->
+        <timeStampFormat>dd/MM/yyyy HH:mm:ss</timeStampFormat> <!-- Formato de fecha y hora -->
+        <protocol>https</protocol> <!-- Protocolo -->
+        <enableOfflineMode>true</enableOfflineMode> <!-- Permite ver el reporte sin conexión -->
+        <js>
+            document.getElementsByClassName('report-name')[0].innerHTML = '🚀 API Testing - Reqres Project';
+        </js> <!-- Script opcional para personalizar título -->
+    </configuration>
+</extentreports>

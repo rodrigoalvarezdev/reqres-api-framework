@@ -1,0 +1,620 @@
+2025-04-13 21:36:09 [main] INFO  listeners.TestListener - ==== INICIANDO ejecución de la suite: TodosLosTests ====
+2025-04-13 21:36:09 [main] INFO  listeners.TestListener - ---- INICIANDO test: prueba ----
+2025-04-13 21:36:09 [main] INFO  tests.ClaseDePrueba - este es un log de info
+2025-04-13 21:36:09 [main] ERROR tests.ClaseDePrueba - este es un log de error
+2025-04-13 21:36:09 [main] WARN  tests.ClaseDePrueba - este es un lo de advertencia
+2025-04-13 21:36:09 [main] INFO  listeners.TestListener - ✅ TEST PASÓ: prueba
+2025-04-13 21:36:09 [main] INFO  listeners.TestListener - ---- INICIANDO test: crearNuevoUsuario ----
+2025-04-13 21:36:09 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 21:36:11 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 21:36:11 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "757",
+    "createdAt": "2025-04-14T00:36:08.770Z"
+}
+2025-04-13 21:36:13 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 21:36:13 [main] INFO  listeners.TestListener - ✅ TEST PASÓ: crearNuevoUsuario
+2025-04-13 21:36:13 [main] INFO  listeners.TestListener - ---- INICIANDO test: eliminarUsuario ----
+2025-04-13 21:36:13 [main] INFO  tests.DeleteUserTest - Iniciando test: Eliminar usuario
+2025-04-13 21:36:13 [main] INFO  tests.DeleteUserTest - Status Code: 204
+2025-04-13 21:36:13 [main] INFO  tests.DeleteUserTest - Usuario eliminado existosamente
+2025-04-13 21:36:13 [main] INFO  listeners.TestListener - ✅ TEST PASÓ: eliminarUsuario
+2025-04-13 21:36:13 [main] INFO  listeners.TestListener - ---- INICIANDO test: listarUsuarioPagina2 ----
+2025-04-13 21:36:13 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 21:36:17 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 21:36:17 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 21:36:17 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 21:36:17 [main] INFO  listeners.TestListener - ✅ TEST PASÓ: listarUsuarioPagina2
+2025-04-13 21:36:17 [main] INFO  listeners.TestListener - ---- INICIANDO test: actualizarUsuario ----
+2025-04-13 21:36:17 [main] INFO  tests.UpdateUserTest - iniciando test actualizar usuario
+2025-04-13 21:36:17 [main] INFO  tests.UpdateUserTest - Status Code: 200
+2025-04-13 21:36:17 [main] INFO  tests.UpdateUserTest - body: {
+    "name": "Rodri QA Avanzado",
+    "job": "QA Automation Senior",
+    "updatedAt": "2025-04-14T00:36:15.204Z"
+}
+2025-04-13 21:36:17 [main] INFO  tests.UpdateUserTest - el usuario se actualizó exitosamente
+2025-04-13 21:36:17 [main] INFO  listeners.TestListener - ✅ TEST PASÓ: actualizarUsuario
+2025-04-13 21:36:17 [main] INFO  listeners.TestListener - ==== FINALIZANDO ejecución de la suite: TodosLosTests ====
+2025-04-13 21:55:14 [main] INFO  tests.ClaseDePrueba - este es un log de info
+2025-04-13 21:55:14 [main] ERROR tests.ClaseDePrueba - este es un log de error
+2025-04-13 21:55:14 [main] WARN  tests.ClaseDePrueba - este es un lo de advertencia
+2025-04-13 21:55:15 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 21:55:16 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 21:55:16 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "772",
+    "createdAt": "2025-04-14T00:55:13.676Z"
+}
+2025-04-13 21:55:16 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 21:55:16 [main] INFO  tests.DeleteUserTest - Iniciando test: Eliminar usuario
+2025-04-13 21:55:17 [main] INFO  tests.DeleteUserTest - Status Code: 204
+2025-04-13 21:55:17 [main] INFO  tests.DeleteUserTest - Usuario eliminado existosamente
+2025-04-13 21:55:17 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 21:55:20 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 21:55:20 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 21:55:20 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 21:55:20 [main] INFO  tests.UpdateUserTest - iniciando test actualizar usuario
+2025-04-13 21:55:21 [main] INFO  tests.UpdateUserTest - Status Code: 200
+2025-04-13 21:55:21 [main] INFO  tests.UpdateUserTest - body: {
+    "name": "Rodri QA Avanzado",
+    "job": "QA Automation Senior",
+    "updatedAt": "2025-04-14T00:55:18.636Z"
+}
+2025-04-13 21:55:21 [main] INFO  tests.UpdateUserTest - el usuario se actualizó exitosamente
+2025-04-13 21:57:10 [main] INFO  tests.ClaseDePrueba - este es un log de info
+2025-04-13 21:57:10 [main] ERROR tests.ClaseDePrueba - este es un log de error
+2025-04-13 21:57:10 [main] WARN  tests.ClaseDePrueba - este es un lo de advertencia
+2025-04-13 21:57:10 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 21:57:11 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 21:57:11 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "965",
+    "createdAt": "2025-04-14T00:57:08.848Z"
+}
+2025-04-13 21:57:12 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 21:57:12 [main] INFO  tests.DeleteUserTest - Iniciando test: Eliminar usuario
+2025-04-13 21:57:12 [main] INFO  tests.DeleteUserTest - Status Code: 204
+2025-04-13 21:57:12 [main] INFO  tests.DeleteUserTest - Usuario eliminado existosamente
+2025-04-13 21:57:12 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 21:57:15 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 21:57:15 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 21:57:15 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 21:57:15 [main] INFO  tests.UpdateUserTest - iniciando test actualizar usuario
+2025-04-13 21:57:16 [main] INFO  tests.UpdateUserTest - Status Code: 200
+2025-04-13 21:57:16 [main] INFO  tests.UpdateUserTest - body: {
+    "name": "Rodri QA Avanzado",
+    "job": "QA Automation Senior",
+    "updatedAt": "2025-04-14T00:57:13.823Z"
+}
+2025-04-13 21:57:16 [main] INFO  tests.UpdateUserTest - el usuario se actualizó exitosamente
+2025-04-13 22:05:29 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 22:06:59 [main] INFO  tests.ClaseDePrueba - este es un log de info
+2025-04-13 22:06:59 [main] ERROR tests.ClaseDePrueba - este es un log de error
+2025-04-13 22:06:59 [main] WARN  tests.ClaseDePrueba - este es un lo de advertencia
+2025-04-13 22:06:59 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 22:07:01 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 22:07:01 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "834",
+    "createdAt": "2025-04-14T01:06:58.445Z"
+}
+2025-04-13 22:07:01 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 22:07:01 [main] INFO  tests.DeleteUserTest - Iniciando test: Eliminar usuario
+2025-04-13 22:07:02 [main] INFO  tests.DeleteUserTest - Status Code: 204
+2025-04-13 22:07:02 [main] INFO  tests.DeleteUserTest - Usuario eliminado existosamente
+2025-04-13 22:07:02 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 22:07:05 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 22:07:05 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 22:07:05 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 22:07:05 [main] INFO  tests.UpdateUserTest - iniciando test actualizar usuario
+2025-04-13 22:07:06 [main] INFO  tests.UpdateUserTest - Status Code: 200
+2025-04-13 22:07:06 [main] INFO  tests.UpdateUserTest - body: {
+    "name": "Rodri QA Avanzado",
+    "job": "QA Automation Senior",
+    "updatedAt": "2025-04-14T01:07:03.405Z"
+}
+2025-04-13 22:07:06 [main] INFO  tests.UpdateUserTest - el usuario se actualizó exitosamente
+2025-04-13 22:10:53 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 22:10:54 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 22:10:54 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "854",
+    "createdAt": "2025-04-14T01:10:51.858Z"
+}
+2025-04-13 22:10:54 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 22:16:44 [main] INFO  tests.ClaseDePrueba - este es un log de info
+2025-04-13 22:16:44 [main] ERROR tests.ClaseDePrueba - este es un log de error
+2025-04-13 22:16:44 [main] WARN  tests.ClaseDePrueba - este es un lo de advertencia
+2025-04-13 22:16:44 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 22:16:45 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 22:16:45 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "665",
+    "createdAt": "2025-04-14T01:16:42.612Z"
+}
+2025-04-13 22:16:45 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 22:16:45 [main] INFO  tests.DeleteUserTest - Iniciando test: Eliminar usuario
+2025-04-13 22:16:46 [main] INFO  tests.DeleteUserTest - Status Code: 204
+2025-04-13 22:16:46 [main] INFO  tests.DeleteUserTest - Usuario eliminado existosamente
+2025-04-13 22:16:46 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 22:16:49 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 22:16:49 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 22:16:49 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 22:16:49 [main] INFO  tests.UpdateUserTest - iniciando test actualizar usuario
+2025-04-13 22:16:50 [main] INFO  tests.UpdateUserTest - Status Code: 200
+2025-04-13 22:16:50 [main] INFO  tests.UpdateUserTest - body: {
+    "name": "Rodri QA Avanzado",
+    "job": "QA Automation Senior",
+    "updatedAt": "2025-04-14T01:16:47.516Z"
+}
+2025-04-13 22:16:50 [main] INFO  tests.UpdateUserTest - el usuario se actualizó exitosamente
+2025-04-13 23:09:05 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 23:09:06 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 23:09:06 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "606",
+    "createdAt": "2025-04-14T02:09:06.270Z"
+}
+2025-04-13 23:09:06 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 23:09:06 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 23:09:10 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 23:09:10 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 23:09:10 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 23:13:16 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 23:13:18 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 23:13:18 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "866",
+    "createdAt": "2025-04-14T02:13:17.950Z"
+}
+2025-04-13 23:13:18 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 23:13:18 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 23:13:22 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 23:13:22 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 23:13:22 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-
+2025-04-13 23:29:00 [main] INFO  tests.CreateUserTest - iniciando test: Crear nuevo usuario
+2025-04-13 23:29:02 [main] INFO  tests.CreateUserTest - statusCode: 201
+2025-04-13 23:29:02 [main] INFO  tests.CreateUserTest - body: {
+    "name": "Rodrigo",
+    "job": "QA Automation",
+    "id": "949",
+    "createdAt": "2025-04-14T02:29:01.971Z"
+}
+2025-04-13 23:29:02 [main] INFO  tests.CreateUserTest - usuario creado exitosamente
+2025-04-13 23:29:02 [main] INFO  tests.GetUsersTest - iniciando test: Listar usuarios en la página 2
+2025-04-13 23:29:06 [main] INFO  tests.GetUsersTest - statusCode: 200
+2025-04-13 23:29:06 [main] INFO  tests.GetUsersTest - body: {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-04-13 23:29:06 [main] INFO  tests.GetUsersTest - test finalizando exitosamente.-

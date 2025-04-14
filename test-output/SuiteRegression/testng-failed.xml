@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteRegression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.GetUsersTest">
+        <methods>
+          <include name="listarUsuarioPagina2"/>
+        </methods>
+      </class> <!-- tests.GetUsersTest -->
+      <class name="tests.CreateUserTest">
+        <methods>
+          <include name="crearNuevoUsuario"/>
+        </methods>
+      </class> <!-- tests.CreateUserTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [SuiteRegression] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-13T22:16:43 ART" name="SuiteCompleta" finished-at="2025-04-13T22:16:50 ART" duration-ms="6242">
+    <groups>
+      <group name="regression">
+        <method signature="CreateUserTest.crearNuevoUsuario()[pri:0, instance:tests.CreateUserTest@62f68dff]" name="crearNuevoUsuario" class="tests.CreateUserTest"/>
+        <method signature="GetUsersTest.listarUsuarioPagina2()[pri:0, instance:tests.GetUsersTest@13f17eb4]" name="listarUsuarioPagina2" class="tests.GetUsersTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-04-13T22:16:43 ART" name="TodosLosTests" finished-at="2025-04-13T22:16:50 ART" duration-ms="6242">
+      <class name="tests.CreateUserTest">
+        <test-method signature="crearNuevoUsuario()[pri:0, instance:tests.CreateUserTest@62f68dff]" started-at="2025-04-13T22:16:44 ART" name="crearNuevoUsuario" finished-at="2025-04-13T22:16:45 ART" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearNuevoUsuario -->
+      </class> <!-- tests.CreateUserTest -->
+      <class name="tests.ClaseDePrueba">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ClaseDePrueba@2f6e28bc]" started-at="2025-04-13T22:16:43 ART" name="setup" finished-at="2025-04-13T22:16:43 ART" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="prueba()[pri:0, instance:tests.ClaseDePrueba@2f6e28bc]" started-at="2025-04-13T22:16:43 ART" name="prueba" finished-at="2025-04-13T22:16:44 ART" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prueba -->
+      </class> <!-- tests.ClaseDePrueba -->
+      <class name="tests.UpdateUserTest">
+        <test-method signature="actualizarUsuario()[pri:0, instance:tests.UpdateUserTest@1d0d6318]" started-at="2025-04-13T22:16:49 ART" name="actualizarUsuario" finished-at="2025-04-13T22:16:50 ART" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualizarUsuario -->
+      </class> <!-- tests.UpdateUserTest -->
+      <class name="tests.DeleteUserTest">
+        <test-method signature="eliminarUsuario()[pri:0, instance:tests.DeleteUserTest@f001896]" started-at="2025-04-13T22:16:45 ART" name="eliminarUsuario" finished-at="2025-04-13T22:16:46 ART" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarUsuario -->
+      </class> <!-- tests.DeleteUserTest -->
+      <class name="tests.GetUsersTest">
+        <test-method signature="listarUsuarioPagina2()[pri:0, instance:tests.GetUsersTest@13f17eb4]" started-at="2025-04-13T22:16:46 ART" name="listarUsuarioPagina2" finished-at="2025-04-13T22:16:49 ART" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listarUsuarioPagina2 -->
+      </class> <!-- tests.GetUsersTest -->
+    </test> <!-- TodosLosTests -->
+  </suite> <!-- SuiteCompleta -->
+</testng-results>
