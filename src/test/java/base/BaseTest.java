@@ -9,7 +9,7 @@ import utils.ConfigReader;
 @Listeners(TestListener.class) // 🔥 ENGANCHADO AQUÍ
 public class BaseTest {
 
-    @BeforeSuite(groups = {"regression"})
+    @BeforeSuite(groups = {"regression", "smoke"})
     public void setup() {
         RestAssured.baseURI = ConfigReader.obtenerPropiedad("base.url");
         System.out.println("🌐 BASE URL configurada: " + RestAssured.baseURI);
